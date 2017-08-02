@@ -1,0 +1,36 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "fixme",
+  "version": "0.0.1",
+  "description": "fixme",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/coffee server.coffee"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "coffee-script": "^1.12.7",
+    "coffee-middleware": "^0.3.0",
+    "consolidate": "^0.14.5",
+    "unzip": "^0.1.11",
+    "jade": "^1.11.0",
+    "browserify-middleware": "^7.1.0",
+    "coffeeify": "^2.1.0",
+    "stylus": "^0.54.5"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "gomix",
+    "express"
+  ],
+  "license": "MIT"
+}
